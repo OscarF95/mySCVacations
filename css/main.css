@@ -2,9 +2,8 @@
 
 body{
     background-color: #fff;
-    margin: 0px;
-    position: absolute;
-    width: 100%;
+    margin: 0 auto;
+    width: 1000px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     padding: 0 80px 0 80px;
 }
@@ -12,8 +11,8 @@ body{
 #wrapperMain{
     position: relative;
     width: 900px;
-    margin: 0px;
-    background: url('../img/bgjpg');
+    margin: 0px auto;
+    box-shadow: 0px 0px 47px 0px rgba(0,0,0,0.75);
 }
 
 #header{
@@ -43,19 +42,23 @@ body{
 }
 
 #contenido{
-    width: 70%;
+    width: 550px;
     float: left;
+    padding-left: 10px;
 }
 
 #formContact{
-    width: 27%;
+    width: 270px;
     height: 500px;
-    background-color: green;
+    background: url('../img/bg_search.png') no-repeat;
     position: relative;
     float: right;
     top: -120px;
-    border-radius: 4px;
-    border: solid white 4px;
+    border-radius: 4px;   
+}
+
+#formulario{
+    padding: 10px 5px 0px 25px;
 }
 
 footer{
@@ -65,6 +68,8 @@ footer{
 
 #footerLogo{
     float: right;
+    position: relative;
+    bottom: 90px;
 }
 
 /* --------- ESTILOS AUXILIARES --------- */
