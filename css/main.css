@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i');
+
+body{
+    background-color: #fff;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0 80px 0 80px;
+}
+
+#wrapperMain{
+    position: relative;
+    width: 900px;
+    margin: 0px;
+    background: url('../img/bgjpg');
+}
+
+#header{
+    height: 245px;
+    background: url('../img/header4.jpg') no-repeat;
+    margin: 0px;
+    padding: 0 10px 0 10px;
+    position: relative;
+}
+
+#mainTitle{
+    width: 245px;
+    height: 245px;
+}
+
+#mainTitle>h1{
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapperContent{
+    position: relative;
+    height: 1000px;
+    top: 0px;
+    padding: 0 24px 0 10px;
+}
+
+#contenido{
+    width: 70%;
+    float: left;
+}
+
+#formContact{
+    width: 27%;
+    height: 500px;
+    background-color: green;
+    position: relative;
+    float: right;
+    top: -120px;
+    border-radius: 4px;
+    border: solid white 4px;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+}
+
+#footerLogo{
+    float: right;
+}
+
+/* --------- ESTILOS AUXILIARES --------- */
+
+.marginReset{
+    margin: 0px;
+    padding: 0px;
+}
