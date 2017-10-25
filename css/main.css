@@ -18,7 +18,7 @@ body{
 
 #header{
     height: 245px;
-    background: url('../img/header4.jpg') no-repeat;
+    background-image: url('../img/header4.jpg');
     margin: 0px;
     padding: 0 10px 0 10px;
     position: relative;
@@ -46,6 +46,40 @@ body{
     width: 550px;
     float: left;
     padding-left: 10px;
+}
+
+.mpTitles{
+    line-height: 1px;
+    color: #2f5e65;
+    position: relative;
+    width: 100%;
+}
+
+.mainPropertyAddress{
+    font-size: .7em;
+}
+
+#mainProperty{
+    background-color: #e9eeef;
+    position: relative;
+    font-size: 12px;
+    padding: 15px;
+}
+
+#propertyImages{
+    width: 240px;
+	height: 180px;
+	margin-right: 10px;
+	float: left;
+}
+
+#listaLeft{
+    float: left;
+    padding-left: 10px;
+}
+
+#listaRight{
+    float: right;
 }
 
 #formContact{
