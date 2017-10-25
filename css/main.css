@@ -76,10 +76,29 @@ body{
 #listaLeft{
     float: left;
     padding-left: 10px;
+    margin-top: 10px;
 }
 
 #listaRight{
     float: right;
+    margin-top: 10px;
+}
+
+#precioInfo{
+    position: relative;
+    float: left;
+    font-size: 16px;
+}
+
+#precioNoche{
+    color: #2f5e65;
+}
+
+#moreIcon{
+    width: 16px;
+    height: 16px;
+    background: url('../img/more_info.gif') no-repeat;
+    float: left;
 }
 
 #formContact{
