@@ -24,17 +24,63 @@
                 <section id="formulario">
                     <p><strong>Search for a property</strong></p>
                     <div>
-                        <form action="">
-                            <label for="">Ciudad</label>
-                            <select name="ciudad" id="">
+                        <form action="" id="form" class="labelFormatter">
+                            <label>City</label><br/>
+                            <select name="city" id="">
                                 <option value="sanCarlos">San Carlos</option>
                                 <option value="guaymas">Guaymas</option>
                                 <option value="empalme">Empalme</option>
                             </select>
+                            <br/>
+                            <br/>
+                            <label>Price</label><br/>
+                            <select name="priceFrom" id="">
+                                <option value="150">$150</option>
+                                <option value="200">$200</option>
+                                <option value="250">$250</option>
+                                <option value="300">$300</option>
+                                <option value="350">$350</option>
+                                <option value="400">$400</option>
+                            </select>
+                            <label style="font-size: .7em;">to</label>
+                            <select name="priceTo" id="">
+                                <option value="150">$150</option>
+                                <option value="200">$200</option>
+                                <option value="250">$250</option>
+                                <option value="300">$300</option>
+                                <option value="350">$350</option>
+                                <option value="400">$400</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <label>Type</label><br/>
+                            <select name="type" id="">
+                                <option value="home">Home</option>
+                                <option value="condo">Condo</option>
+                                <option value="apartment">Apartment</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <button>SEARCH</button>
                         </form>
                     </div>
                 </section>
-                <section></section>
+                <section id="contacto">
+                    <p><strong>Contact us</strong></p>
+                    <div id="telefonos">
+                        <ul class="listReset">
+                            <li>
+                                <p class="telIcon marginReset"></p>
+                                <p class="contactText">(622) 226 2081</p>
+                                <p class="contactText">(520) 908 7209 US Toll Free</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="mail">
+                        <p class="mailIcon marginReset"></p>
+                        <p class="contactText"><a href="mailto:info@mysancarlosvacation.com">info@mysancarlosvacation.com</a></p>
+                    </div>
+                </section>
             </div>
         </div>
         <footer>

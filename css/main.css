@@ -6,6 +6,7 @@ body{
     width: 1000px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     padding: 0 80px 0 80px;
+    color: #333;
 }
 
 #wrapperMain{
@@ -49,16 +50,60 @@ body{
 
 #formContact{
     width: 270px;
-    height: 500px;
     background: url('../img/bg_search.png') no-repeat;
     position: relative;
     float: right;
     top: -120px;
-    border-radius: 4px;   
+    border-radius: 4px;
+    color: #2f5e65;
 }
 
 #formulario{
     padding: 10px 5px 0px 25px;
+}
+
+#form>button{
+    background: url('../img/search_button_bg.gif') no-repeat;
+    color: #fff;
+    width: 83px;
+    height: 23px;
+}
+
+.labelFormatter>label{
+    font-weight: lighter;
+}
+
+#contacto{
+    padding: 10px 5px 0px 25px;
+}
+
+#telefonos{
+    padding-bottom: 10px;
+}
+
+#contacto p.telIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/contactus_phone.png');
+    margin-right: 11px;
+    float: left;
+}
+
+#contacto p.contactText{
+    color: #333;
+    line-height: 1px;
+    margin-left: 10px;
+    font-size: 12px;
+    padding-top: 6px;
+    font-weight: lighter;
+}
+
+#contacto p.mailIcon{
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/contactus_mail.png');
+    margin-right: 11px;
+    float: left;
 }
 
 footer{
@@ -77,4 +122,10 @@ footer{
 .marginReset{
     margin: 0px;
     padding: 0px;
+}
+
+.listReset{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
