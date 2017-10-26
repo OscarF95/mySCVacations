@@ -39,20 +39,24 @@ body{
     position: relative;
     height: 1000px;
     top: 0px;
-    padding: 0 24px 0 10px;
+    padding: 0 20px 0 10px;
 }
 
 #contenido{
-    width: 550px;
+    width: 600px;
     float: left;
-    padding-left: 10px;
+    
 }
 
 .mpTitles{
     line-height: 1px;
     color: #2f5e65;
     position: relative;
-    width: 100%;
+    top: -53px;
+    left: -15px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .mainPropertyAddress{
@@ -64,6 +68,8 @@ body{
     position: relative;
     font-size: 12px;
     padding: 15px;
+    top: 25px;
+    margin-bottom: 25px;
 }
 
 #propertyImages{
@@ -84,29 +90,66 @@ body{
     margin-top: 10px;
 }
 
-#precioInfo{
+.precioInfo{
     position: relative;
     float: left;
     font-size: 16px;
     margin-top: 6px;
 }
 
-#precioInfo>a{
+.precioInfo>a{
     font-size: 12px;
 }
 
-#precioInfo>p{
+.precioInfo>p{
     color: #2f5e65;
     font-weight: lighter;
 }
 
-#moreIcon{
+.moreIcon{
     width: 16px;
     height: 16px;
     background: url('../img/more_info.gif') no-repeat;
     float: left;
     position: relative;
     top: 5px;
+}
+
+.secondaryPropertiesContainer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 12px;
+}
+
+.secondaryProperty{
+    background-color: #e8f0f7;
+    margin-right: 5px;
+    width: 200px;
+    padding: 10px;
+}
+
+.secondaryTitles{
+    color: #2f5e65;
+    font-size: 16px;
+    line-height: 1px;
+}
+
+.secondaryTitle{
+    padding-top: 10px;
+    margin: 0;
+}
+
+.secondaryAddress{
+    font-size: .6em;
+    line-height: 8px;
+    position: relative;
+    top: -7px;
+}
+
+.secondaryProperty:last-child{
+    margin-right: 0;
 }
 
 #formContact{
