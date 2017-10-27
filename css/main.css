@@ -37,7 +37,7 @@ body{
 
 #wrapperContent{
     position: relative;
-    height: 1000px;
+    height: 1060px;
     top: 0px;
     padding: 0 20px 0 10px;
 }
@@ -193,11 +193,13 @@ body{
 }
 
 #contacto p.telIcon{
-    width: 30px;
+    width: 32px;
     height: 30px;
-    background-image: url('../img/contactus_phone.png');
+    background: url('../img/contactus_phone.png') no-repeat;
     margin-right: 11px;
     float: left;
+    position: relative;
+    top: 2px;
 }
 
 #contacto p.contactText{
@@ -210,11 +212,13 @@ body{
 }
 
 #contacto p.mailIcon{
-    width: 30px;
+    width: 31px;
     height: 30px;
     background-image: url('../img/contactus_mail.png');
     margin-right: 11px;
     float: left;
+    position: relative;
+    top: -8px;
 }
 
 footer{
@@ -224,7 +228,6 @@ footer{
 
 #footerLogo{
     float: right;
-    position: relative;
 }
 
 /* --------- ESTILOS AUXILIARES --------- */
