@@ -2,6 +2,7 @@
 
 body{
     background-color: #fff;
+    background: url('../img/wave_pattern.jpg');
     margin: 0 auto;
     width: 1000px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -14,6 +15,7 @@ body{
     width: 900px;
     margin: 0px auto;
     box-shadow: 0px 0px 47px 0px rgba(0,0,0,0.75);
+    background-color: #fff;
 }
 
 #header{
@@ -81,13 +83,16 @@ body{
 
 #listaLeft{
     float: left;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-top: 10px;
+    font-size: 11px;
 }
 
 #listaRight{
     float: right;
     margin-top: 10px;
+    padding-right: 50px;
+    font-size: 11px;
 }
 
 .precioInfo{
@@ -175,9 +180,8 @@ body{
     text-align: center;
 }
 
-#form>button:active{
+#form>button:hover{
     background: url('../img/search_button_bg2.gif') no-repeat;
-    color: #333;
 }
 
 .labelFormatter>label{
