@@ -123,7 +123,6 @@ body{
 .secondaryPropertiesContainer{
     display: flex;
     width: 100%;
-    height: 200px;
     position: relative;
     top: 12px;
 }
@@ -133,6 +132,10 @@ body{
     margin-right: 5px;
     width: 200px;
     padding: 10px;
+}
+
+.secondaryProperty:last-child{
+    margin-right: 0;
 }
 
 .secondaryTitles{
@@ -153,8 +156,28 @@ body{
     top: -7px;
 }
 
-.secondaryProperty:last-child{
-    margin-right: 0;
+.secondaryInfo{
+    font-size: .7em;
+    font-weight: lighter;
+}
+
+.secondaryDesc{
+    text-align: justify;
+}
+
+.secondaryPrecioInfo{
+    padding-top: 5px;
+    color: #2f5e65;
+    line-height: 16px;
+
+}
+
+.secondaryMoreIcon{
+    width: 16px;
+    height: 16px;
+    background: url('../img/more_info.gif') no-repeat;
+    float: left;
+    position: relative;
 }
 
 #formContact{
